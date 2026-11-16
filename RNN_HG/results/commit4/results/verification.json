@@ -1,0 +1,6 @@
+{
+  "epochs": 37,
+  "updates": 116994,
+  "checkpoint_reload": true,
+  "prediction_tokens": 50175
+}
