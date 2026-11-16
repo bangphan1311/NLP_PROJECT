@@ -1,0 +1,18 @@
+{
+  "glove/glove840B300d.txt": {
+    "bytes": 5646239124,
+    "sha256": "3546fe00b5659a045c7fd9879b7a70f02985205c43f9b90bf9ea1434adc38db2"
+  },
+  "elmo/VUA_train.hdf5": {
+    "bytes": 623425655,
+    "sha256": "1da3fb6778dc4c330ab755bfe1843789182ea70f4cd7d1a90c5454decee8817e"
+  },
+  "elmo/VUA_val.hdf5": {
+    "bytes": 158385664,
+    "sha256": "8af69bbf02d362d952a6684f4b6780eeb1e8137332d39de0d23a30ceaab014ea"
+  },
+  "elmo/VUA_test.hdf5": {
+    "bytes": 206446613,
+    "sha256": "654fd41f8a775f151b7ee1a4281181dc7c6693423bad49040ddb048ffb29726f"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "glove": {
+    "dimension": 300,
+    "train_vocabulary": 13843,
+    "matched_words": 13404,
+    "unmatched_words": 439
+  },
+  "vua": {
+    "train": {
+      "sentences": 6323,
+      "tokens": 116622,
+      "metaphor_tokens": 13051,
+      "elmo_dimension": 1024
+    },
+    "val": {
+      "sentences": 1550,
+      "tokens": 38628,
+      "metaphor_tokens": 4487,
+      "elmo_dimension": 1024
+    },
+    "test": {
+      "sentences": 2694,
+      "tokens": 50175,
+      "metaphor_tokens": 6243,
+      "elmo_dimension": 1024
+    }
+  }
+}
