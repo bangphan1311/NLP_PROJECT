@@ -1,0 +1,31 @@
+﻿case_id,error_type,sentence_id,word_index,token,gold_label,predicted_label,sentence
+FP01,FP,kbw-fragment09:3981,6,straw,0,1,I I I I want a straw .
+FP02,FP,kb7-fragment45:13187,11,bit,0,1,"Someone asked me whether , I thought it 'd be a bit of fun But as I say nobody knows who you are , or what you 've said or anything so it does n't matter does it ?"
+FP03,FP,a7t-fragment01:9,10,trade,0,1,"The US has talked of a genuine North American free trade zone incorporating the US , Canada and Mexico which would have the best of all worlds with high-technology skills and a cheap labour force south of the Rio Grande ."
+FP04,FP,faj-fragment17:1758,10,with,0,1,"He strokes its side , which is white and marked with round patches of black , like islands on a naÂ¯vely drawn map ."
+FP05,FP,clw-fragment01:80,9,show,0,1,The few girls who enter science will not usually show these foreclosure characteristics .
+FP06,FP,a5e-fragment06:158,18,couple,0,1,"But this is a plot development Ã¢ÂÂ the plot development Ã¢ÂÂ and , if it involves turning a couple of Aled Jones types into Oliver Reeds , why let logic get in the way ?"
+FP07,FP,a7w-fragment01:41,19,calls,0,1,But only two million out of the 20 million journeys which ambulance crews carry out each year are emergency calls .
+FP08,FP,a1j-fragment33:504,26,group,0,1,"The Ã¢ÂÂ medium term industrial strategy which would form the centrepiece of Labour 's economic policy would , according to the Productive and Competitive Economy review group , be Ã¢ÂÂ administered by a transformed Department of Trade and Industry ."
+FP09,FP,a36-fragment07:200,6,remains,0,1,But the book 's principal defect remains the vacuity of its protagonist .
+FP10,FP,faj-fragment17:1785,13,with,0,1,"From a distance we see Tepilit , walking steadily towards Ol Doinyo Lengai with his animals ."
+FP11,FP,cty-fragment03:551,9,fight,0,1,"thus one can and must say Ã¢ÂÂ¦ that each fight is the singularisation of all the circumstances of the social whole in movement and that by this singularisation , it incarnates the enveloping totalization which the historical process is ."
+FP12,FP,kb7-fragment45:12909,4,bloody,0,1,"Anytime But I remember bloody you coming in on a Sunday morning sometimes you , bloody can hardly the bed !"
+FP13,FP,aa3-fragment08:248,22,resolve,0,1,What little money has been recovered remains the subject of a legal tussle in the courts which may yet take months to resolve .
+FP14,FP,kb7-fragment31:11484,5,get,0,1,Well I mean I can get that up the end .
+FP15,FP,cty-fragment03:488,5,answer,0,1,"Sartre does not attempt to answer this question , shifting rather to the notion of a lack of self-consciousness ."
+FN01,FN,bmw-fragment09:2724,31,looks,1,0,"They walked back to South Audley Street together , weaving their way through the lunchtime crowds on the pavements , the tall , striking girl and the young man whose pixieish looks belied his twenty-six years ."
+FN02,FN,kbh-fragment04:362,3,got,1,0,But she 's got about six different firms on the computer and was comparing notes .
+FN03,FN,a5e-fragment06:187,11,at,1,0,Or : Ã¢ÂÂ When Cupid shot his dart He shot it at your heart .
+FN04,FN,cty-fragment03:495,7,articulation,1,0,"Sartre 's account thus sets up the articulation of history , univocal meaning , and totality as the indissoluble set of elements required for the validation of Marxism , necessary in order to save it from its detour from itself ."
+FN05,FN,a7t-fragment01:11,26,role,1,0,It has turned up in Canberra with Japan to develop Asia Pacific Economic Co-operation ( APEC ) and a new 12-nation organisation which will mimic the role of the Organisation for Economic Co-operation and Development in Europe .
+FN06,FN,ecv-fragment05:1056,12,free,1,0,"Education has been directed at the production of the rational , the free , the independent of mind , the dignified , in short , the autonomous human being ."
+FN07,FN,a3e-fragment02:10,25,clear,1,0,"The summer 's sprawl begins to be oppressive at this stage in the year and trigger fingers are itching to snip back overgrown mallows , clear out the mildewing foliage of golden rod and reduce the overpowering bulk of bullyboy ground cover ."
+FN08,FN,a5e-fragment06:162,10,give,1,0,Choke up at The Price Of Fame : Ã¢ÂÂ I give Ã¢ÂÂ em everything and they stick a knife in my back .
+FN09,FN,a1u-fragment04:87,9,plant,1,0,"There was a fault on the computer governing the plant , said Mr Wheeler , and the fire had automatically shut down ."
+FN10,FN,a3m-fragment02:87,2,perform,1,0,"They will perform some of the same functions , but they will not be an exact replacement for traditional trams ."
+FN11,FN,ecv-fragment05:1059,2,occurs,1,0,"The degeneration occurs , not because men are congenitally or even incorrigibly narrow , libertine , isolated or selfish , but because in defining themselves as autonomous beings in opposition to other human beings they have had to seek what separates them as a group from others ."
+FN12,FN,faj-fragment17:2045,9,with,1,0,I am sure he would wish me to marry with someone in our tribe .
+FN13,FN,cty-fragment03:538,4,demonstrates,1,0,"In this case Sartre demonstrates how the singular universal works , by appealing to the concrete example of a boxing match Ã¢ÂÂ a random exemplification that just happens to reproduce the single adversaries of the master/slave dialectic ."
+FN14,FN,a5e-fragment06:160,23,up,1,0,"The most common reason for a biomusical is opportunism : take a star like Judy Garland or John Lennon , and you pick up a hit title and a hit score ready-made ."
+FN15,FN,cty-fragment03:530,11,negation,1,0,"Sartre 's reaction to the threat that the negation of a negation may produce a detotalizing effect is to introduce a new category , a unifying force of a Ã¢ÂÂ singularization which incarnates the universal : Ã¢ÂÂ If totalization really is an ongoing process , he writes , Ã¢ÂÂ then it operates everywhere ."
