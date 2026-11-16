@@ -1,0 +1,20 @@
+{
+  "python": "3.6.13 |Anaconda, Inc.| (default, Jun  4 2021, 14:25:59) \n[GCC 7.5.0]",
+  "torch": "0.4.1",
+  "cuda": "9.0.176",
+  "cudnn": 7102,
+  "cudnn_enabled": true,
+  "cuda_available": true
+}
+GPU: Tesla T4
+ENV_READY
+Traceback (most recent call last):
+  File "/kaggle/working/rnn-hg-audit/commit2/check_lstm.py", line 32, in <module>
+    bidirectional=True
+  File "/tmp/rnn-hg-env-original/lib/python3.6/site-packages/torch/nn/modules/module.py", line 258, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/tmp/rnn-hg-env-original/lib/python3.6/site-packages/torch/nn/modules/rnn.py", line 112, in _apply
+    self.flatten_parameters()
+  File "/tmp/rnn-hg-env-original/lib/python3.6/site-packages/torch/nn/modules/rnn.py", line 105, in flatten_parameters
+    self.batch_first, bool(self.bidirectional))
+RuntimeError: CuDNN error: CUDNN_STATUS_SUCCESS

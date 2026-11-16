@@ -1,0 +1,17 @@
+{
+  "before": {
+    "environment": "/tmp/rnn-hg-env-original",
+    "wheel": "https://download.pytorch.org/whl/cu90/torch-0.4.1-cp36-cp36m-linux_x86_64.whl",
+    "exit_code": 1,
+    "error": "RuntimeError: CuDNN error: CUDNN_STATUS_SUCCESS"
+  },
+  "after": {
+    "environment": "/tmp/rnn-hg-env-t4",
+    "wheel": "https://download.pytorch.org/whl/cu100/torch-1.0.0-cp36-cp36m-linux_x86_64.whl",
+    "exit_code": 0,
+    "lstm_gpu_ok": true
+  },
+  "probe": "/kaggle/working/rnn-hg-audit/commit2/check_lstm.py",
+  "visible_gpu": "0",
+  "training_started": false
+}

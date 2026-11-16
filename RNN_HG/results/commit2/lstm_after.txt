@@ -1,0 +1,11 @@
+{
+  "python": "3.6.13 |Anaconda, Inc.| (default, Jun  4 2021, 14:25:59) \n[GCC 7.5.0]",
+  "torch": "1.0.0",
+  "cuda": "10.0.130",
+  "cudnn": 7401,
+  "cudnn_enabled": true,
+  "cuda_available": true
+}
+GPU: Tesla T4
+ENV_READY
+LSTM_GPU_OK
