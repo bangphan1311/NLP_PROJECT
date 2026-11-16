@@ -1,0 +1,36 @@
+{
+  "splits": {
+    "train": {
+      "sentences": 6323,
+      "tokens": 116622,
+      "metaphor_tokens": 13051,
+      "literal_tokens": 103571,
+      "metaphor_percent": 11.19,
+      "duplicate_sentence_ids": 0,
+      "sha256": "1c2db64a543f999626b765b0cf1f00d054a820b0ea005ccb536aaf1ff33f9b43"
+    },
+    "val": {
+      "sentences": 1550,
+      "tokens": 38628,
+      "metaphor_tokens": 4487,
+      "literal_tokens": 34141,
+      "metaphor_percent": 11.62,
+      "duplicate_sentence_ids": 0,
+      "sha256": "66dc24219c2ba21d53d70ef0b0eac895f52cf18524238674cff4448e23feab3c"
+    },
+    "test": {
+      "sentences": 2694,
+      "tokens": 50175,
+      "metaphor_tokens": 6243,
+      "literal_tokens": 43932,
+      "metaphor_percent": 12.44,
+      "duplicate_sentence_ids": 0,
+      "sha256": "33256891fb84cdda539def4781409762de6af645a415fbd13c7fcc08e5ee6135"
+    }
+  },
+  "sentence_id_overlap": {
+    "train__val": 0,
+    "train__test": 0,
+    "val__test": 0
+  }
+}
