@@ -1,0 +1,51 @@
+--- original/main_vua.py
++++ runtime/main_vua.py
+@@ -1,3 +1,4 @@
++from _run_hooks import epoch_start, epoch_end, save_final
+ from util import get_num_lines, get_pos2idx_idx2pos, index_sequence, get_vocab, embed_indexed_sequence, \
+     get_word2idx_idx2word, get_embedding_matrix, write_predictions, get_performance_VUAverb_val, \
+     get_performance_VUAverb_test, get_performance_VUA_test
+@@ -171,6 +172,7 @@
+ num_iter = 0
+ comparable = []
+ for epoch in range(num_epochs):
++    epoch_start()
+     print("Starting epoch {}".format(epoch + 1))
+     for (__, example_text, example_lengths, labels) in train_dataloader_vua:
+         example_text = Variable(example_text)
+@@ -194,10 +196,13 @@
+             val_f1s.append(performance_matrix[:, 2])
+             print("Iteration {}. Validation Loss {}.".format(num_iter, avg_eval_loss))
+ 
++    epoch_end(globals(), "main", epoch)
++
+ # Additional training
+ rnn_optimizer = optim.SGD(RNNseq_model.parameters(), lr=0.1)
+ additional_epochs = 8
+ for epoch in range(additional_epochs):
++    epoch_start()
+     print("Starting epoch {}".format(epoch + 1))
+     for (__, example_text, example_lengths, labels) in train_dataloader_vua:
+         example_text = Variable(example_text)
+@@ -221,6 +226,10 @@
+             val_f1s.append(performance_matrix[:, 2])
+             print("Iteration {}. Validation Loss {}.".format(num_iter, avg_eval_loss))
+ 
++    epoch_end(globals(), "add", epoch)
++
++save_final(globals())
++
+ raw_test_vua = []
+ with open('../data/VUAsequence/VUA_seq_formatted_test.csv', encoding='latin-1') as f:
+     lines = csv.reader(f)
+--- original/util.py
++++ runtime/util.py
+@@ -260,7 +260,7 @@
+ 
+     # Set the model back to train mode, which activates dropout again.
+     model.train()
+-    return average_eval_loss.data[0], print_info(confusion_matrix, idx2pos)
++    return average_eval_loss.item(), print_info(confusion_matrix, idx2pos)
+ 
+ 
+ def update_confusion_matrix(matrix, predictions, labels, pos_seqs):

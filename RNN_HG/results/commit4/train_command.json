@@ -1,0 +1,15 @@
+{
+  "command": [
+    "env",
+    "CUDA_VISIBLE_DEVICES=0",
+    "MPLBACKEND=Agg",
+    "LD_LIBRARY_PATH=/tmp/rnn-hg-env-t4/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64",
+    "RNN_HG_OUTPUT=/kaggle/working/rnn-hg-audit/commit4/results",
+    "/tmp/rnn-hg-env-t4/bin/python",
+    "-u",
+    "/kaggle/working/rnn-hg-upstream/rnn_hg_runtime/main_vua.py"
+  ],
+  "cwd": "/kaggle/working/rnn-hg-upstream/rnn_hg_runtime",
+  "source_commit": "eb924b57415f9d92d3b97df8f14881d5b200ff78",
+  "started_at": "2026-11-16T08:52:02.048271+00:00"
+}

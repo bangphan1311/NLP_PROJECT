@@ -1,0 +1,4 @@
+LOSS_SCALAR_READY
+Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+IndexError: invalid index of a 0-dim tensor. Use tensor.item() to convert a 0-dim tensor to a Python number
