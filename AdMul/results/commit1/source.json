@@ -1,0 +1,9 @@
+{
+  "paper_title": "Adversarial Multi-task Learning for End-to-end Metaphor Detection",
+  "paper_url": "https://aclanthology.org/2023.findings-acl.96/",
+  "repository": "https://github.com/SilasTHU/AdMul",
+  "commit": "4847c72a4f8228a9197d1cbd0664eab7ddb0cfc8",
+  "license": "Apache-2.0",
+  "scope": "Reproduction preparation; original model and algorithm credited to paper authors",
+  "copied_unchanged": ["configs/default.py", "configs/vua_all.yaml", "LICENSE"]
+}

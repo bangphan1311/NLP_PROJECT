@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+kaggle.json
+.venv/
+.codex_tools/
+data/
+deberta-v3-base/
+kaggle_output/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.zip
