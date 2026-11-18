@@ -36,11 +36,16 @@ Các tài liệu và kiểm tra dữ liệu được bổ sung khi đăng lại 
 - Cách chạy phiên đầu và resume: [kaggle/README.md](kaggle/README.md).
 - Các thay đổi, phạm vi kiểm tra và minh chứng: [docs/kaggle_resume.md](docs/kaggle_resume.md), [results/commit2/verification.json](results/commit2/verification.json).
 
-Mốc này chưa công bố điểm train/test thực tế. Kết quả kiểm tra CPU dùng model nhỏ để kiểm tra cơ chế resume, không phải điểm thực nghiệm AdMul.
+Kết quả kiểm tra CPU ở mốc 2 dùng model nhỏ để kiểm tra cơ chế resume, không phải điểm thực nghiệm AdMul.
+
+## Mốc 3: kết quả huấn luyện thực tế
+
+Đã hoàn tất 8 epoch VUA All trên một Tesla T4. Epoch 8 có F1 validation tốt nhất (78,42%); F1 test tại epoch được chọn là **78,23%** (precision 77,93%, recall 78,52%). Chỉ dùng dev F1 để chọn checkpoint.
+
+Log gốc, lịch sử từng epoch, cấu hình thực tế, nguồn output Kaggle và kiểm tra đối chiếu được lưu tại [results/commit3/](results/commit3/README.md). Model và dữ liệu lớn giữ ở Kaggle; không đưa vào GitHub.
 
 ## Các mốc tiếp theo
 
-3. Log, tiến độ và kết quả huấn luyện thực tế.
 4. Đối chiếu kết quả với paper.
 5. Phân tích lỗi AdMul.
 6. So sánh các phương pháp của nhóm trên cùng split và metric.

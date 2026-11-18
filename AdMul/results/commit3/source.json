@@ -1,0 +1,20 @@
+{
+  "kernel": "nguynminhkhimuet/result",
+  "url": "https://www.kaggle.com/code/nguynminhkhimuet/result",
+  "retrieved_on": "2026-11-18",
+  "timezone": "Asia/Saigon",
+  "note": "Latest available kernel output at retrieval; kernel version number not recorded. Retrieval date is not training date.",
+  "raw_file_sha256": {
+    "result.json": "99512dc433e2661f6298205a32d4a82be77c19733f94737ced7e149464ae939e",
+    "history.json": "1b7d21ff6e3eacf34a0a50e73b05657b1011192abb6eb1217985f06e3ead115a",
+    "identity.json": "da858c6c5b94dff3e37f9ae55c45a732a8e4c1d05385a0a6783d89ed1758f893",
+    "events.jsonl": "23b42ccbf4423cc8f72095884a79cdb12b843d3dfbccfc3340fd5aabae73cac6",
+    "console.log": "81f8df699688d86ac1ebb6fd5e32ded342de398e8936b04e5c1ce02ad3b410d0",
+    "config.yaml": "a788e8ddf233dce3762d52671f221a34f916e93276411afaf9efe86daa500d98",
+    "requirements.lock.txt": "d59fb36c09ca6708bbcd593d12d95344d0ac565327b51a81ef43ba8d262fb347",
+    "admul_run.json": "85a20c70b320b004a9eea61d148ffca4f6b4579b508f60880aa1432e09f31060",
+    "kaggle_kernel.log": "8de20046b90b481146b4e55e478d11c9ef5c593576bacb6f28e7015a70cfe1ef"
+  },
+  "checkpoint_path_in_kaggle_output": "AdMulPaper/run/epochs/epoch_08.pt",
+  "checkpoints_included": false
+}

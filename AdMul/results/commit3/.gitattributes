@@ -1,0 +1,2 @@
+# Preserve original log bytes so published files match provenance SHA-256.
+*.log -text

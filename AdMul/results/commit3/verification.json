@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checks": {
+    "eight_consecutive_epochs": true,
+    "checkpoint_events_match_history": true,
+    "best_epoch_selected_by_dev_f1": true,
+    "test_metrics_match_selected_epoch": true,
+    "precision_recall_f1_consistent": true,
+    "final_event_matches_result": true,
+    "config_matches_identity": true,
+    "five_data_hashes_match_commit1": true,
+    "source_hashes_match_commit2_lf_normalized": {
+      "checkpointing.py": true,
+      "configs/default.py": true,
+      "data_process.py": true,
+      "data_utils.py": true,
+      "main_kf.py": true,
+      "main_vua.py": true,
+      "model.py": true,
+      "runner.py": true,
+      "smoke.py": true,
+      "train_val.py": true,
+      "utils.py": true
+    }
+  },
+  "completed_session_epochs": [
+    1,
+    3,
+    5,
+    7,
+    8
+  ],
+  "resume_from_epochs": [
+    1,
+    3,
+    5,
+    7
+  ],
+  "recorded_epoch_seconds_total": 131833.339395838,
+  "limitation": "Consistency checks on exported logs and JSON; no checkpoint loading or independent inference performed"
+}
