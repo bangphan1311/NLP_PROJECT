@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-18",
+  "timezone": "Asia/Saigon",
+  "command": "python AdMul/kaggle/test_resume.py",
+  "exit_code": 0,
+  "tests_run": 4,
+  "status": "passed",
+  "environment": {
+    "platform": "Windows",
+    "python": "3.14.4",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.4.4"
+  },
+  "tests": [
+    "test_all_epochs_resume_matches_continuous",
+    "test_notebook_sources_and_cells",
+    "test_refuses_changed_inputs_and_partial_save",
+    "test_stops_before_epoch_and_discards_partial_epoch"
+  ],
+  "scope": "CPU fixture with a tiny model and adapted tokenizer, optimizer and CUDA calls; includes notebook compilation and embedded source checks",
+  "gpu_training_verified_in_this_commit": false,
+  "training_metrics_included": false
+}

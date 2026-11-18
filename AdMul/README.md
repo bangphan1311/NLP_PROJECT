@@ -26,13 +26,23 @@ python AdMul/scripts/check_data.py --data-root /path/to/data --output AdMul/resu
 
 `/path/to/data` là thư mục chứa `VUA_All/` và `semcor/`. Script kiểm tra dữ liệu và tài liệu trong mốc này do nhóm bổ sung; các file cấu hình được giữ nguyên từ tác giả.
 
-Đây là commit chuẩn bị, chưa công bố kết quả huấn luyện. Các tài liệu và kiểm tra dữ liệu được bổ sung khi đăng lại tiến trình lên GitHub; thời điểm commit không được coi là thời điểm chạy thí nghiệm trước đó.
+Các tài liệu và kiểm tra dữ liệu được bổ sung khi đăng lại tiến trình lên GitHub; thời điểm commit không được coi là thời điểm chạy thí nghiệm trước đó.
+
+## Mốc 2: notebook Kaggle và lưu/resume
+
+- Mã mô hình, xử lý dữ liệu, sampler và train/eval ở thư mục này được sao chép nguyên bản từ commit tác giả đã ghi ở trên.
+- Nhóm bổ sung `kaggle/runner.py`, `checkpointing.py`, `smoke.py`, `test_resume.py` và `build_notebook.py` để chạy nhiều phiên Kaggle, kiểm tra môi trường và khôi phục trạng thái huấn luyện.
+- Notebook tự chứa mã nguồn: [AdMul_Kaggle_Checkpoints.ipynb](AdMul_Kaggle_Checkpoints.ipynb).
+- Cách chạy phiên đầu và resume: [kaggle/README.md](kaggle/README.md).
+- Các thay đổi, phạm vi kiểm tra và minh chứng: [docs/kaggle_resume.md](docs/kaggle_resume.md), [results/commit2/verification.json](results/commit2/verification.json).
+
+Mốc này chưa công bố điểm train/test thực tế. Kết quả kiểm tra CPU dùng model nhỏ để kiểm tra cơ chế resume, không phải điểm thực nghiệm AdMul.
 
 ## Các mốc tiếp theo
 
-1. Môi trường Kaggle và kiểm tra chạy thử.
-2. Notebook cùng phần lưu checkpoint/resume được bổ sung.
 3. Log, tiến độ và kết quả huấn luyện thực tế.
-4. So sánh với paper/RNN_HG và phân tích lỗi.
+4. Đối chiếu kết quả với paper.
+5. Phân tích lỗi AdMul.
+6. So sánh các phương pháp của nhóm trên cùng split và metric.
 
 Dữ liệu, model pretrained và checkpoint được lưu ngoài GitHub. Không đưa thông tin đăng nhập vào repo.
