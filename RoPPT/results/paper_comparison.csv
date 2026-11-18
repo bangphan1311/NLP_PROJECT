@@ -1,0 +1,5 @@
+track,metric,paper,reproduced,delta_points
+all_pos,precision,80.0,78.2,-1.8
+all_pos,recall,78.2,72.69,-5.51
+all_pos,f1,79.1,75.34,-3.76
+verb,f1,n/a (paper reports all-POS),,

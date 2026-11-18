@@ -1,0 +1,6 @@
+data/
+saves/
+__pycache__/
+*.pyc
+*.bin
+*.pt

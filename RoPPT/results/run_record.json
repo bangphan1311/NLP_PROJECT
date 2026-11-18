@@ -1,0 +1,79 @@
+{
+  "method": "RoPPT (MELBERT_GAT, roberta-base)",
+  "source": {
+    "repo": "https://github.com/MajiBear000/RoPPT",
+    "paper": "https://arxiv.org/abs/2302.05611",
+    "local_changes": "CHANGES_DEVIAIONS.md (dev-based checkpointing, pred dump, cuda:0, allennlp import guard)"
+  },
+  "data": {
+    "split": "VUA-18 official (authors' preprocessed spaCy rospacy.json)",
+    "train": 101975,
+    "val": 34253,
+    "test": 43947
+  },
+  "config": {
+    "model_type": "MELBERT_GAT",
+    "bert_model": "roberta-base",
+    "class_weight": 3,
+    "num_train_epoch": 3,
+    "train_batch_size": 16,
+    "eval_batch_size": 4,
+    "learning_rate": 3e-05,
+    "warmup_epoch": 2,
+    "max_seq_length": 500,
+    "seed": 42
+  },
+  "parameters": {
+    "total": 127049474,
+    "total_M": 127.0
+  },
+  "hardware": {
+    "phases": [
+      {
+        "phase": "epochs 1-2",
+        "device": "CPU",
+        "cpu": "12th Gen Intel Core i7-1255U (10C/12T)",
+        "ram_gb": 15,
+        "torch": "1.6.0+cpu",
+        "python": "3.7.9"
+      },
+      {
+        "phase": "epoch 3",
+        "device": "NVIDIA Tesla T4 (Colab)",
+        "torch": "2.x (Colab preinstalled)",
+        "transformers": "latest (AdamW import patched)"
+      }
+    ]
+  },
+  "timing": {
+    "cpu_phase": {
+      "training_start": "2026-11-17 17:22:51,474",
+      "epoch1_done": "2026-11-18 03:09:18,484",
+      "epoch2_done": "2026-11-18 13:32:50,773",
+      "epoch2_dev_f1": "0.7194119112883129"
+    },
+    "gpu_phase": {
+      "training_start": "2026-11-18 08:05:49,653",
+      "epoch_done": "2026-11-18 08:37:11,006",
+      "dev_f1": "0.7436600411240576",
+      "test": {
+        "acc": "0.9324185951259472",
+        "f1": "0.7534451270131164",
+        "precision": "0.7820093055316216",
+        "recall": "0.7268941214159859"
+      }
+    },
+    "notes": "CPU: ~9h46m/epoch training + ~50min dev eval; GPU: 1 epoch ~31min train + 4min dev + 5min test"
+  },
+  "final_metrics": {
+    "dev_f1": 0.7436600411240576,
+    "test": {
+      "precision": 0.782,
+      "recall": 0.7269,
+      "f1": 0.7534,
+      "accuracy": 0.9324
+    }
+  },
+  "checkpoint": "saves/roberta-base/3_20261118-0759/pytorch_model.bin",
+  "predictions": "saves/roberta-base/3_20261118-0759/predictions_test.tsv (43,947 rows, validated)"
+}

@@ -1,0 +1,31 @@
+case_id,error_type,sentence_id,word_index,token,gold_label,predicted_label,sentence
+FP01,FP,a1u-fragment04 75,3,turned,0,1,"Liverpool dockers recently turned back parts of a 1,500-tonne consignment of Canadian PCBs( polychlorinated biphenyls) bound for this plant in Gwent."
+FP02,FP,ahc-fragment61 1294,6,call,0,1,"Biblical motifs recur â some art-experts call them sermons in stone, and their messages would certainly have been clear to the often-illiterate medieval pilgrims trudging to Santiago de Compostela in Spain."
+FP03,FP,kb7-fragment45 12994,10,gave,0,1,I know five hundred and sixty was extra cos Stuart gave me two hundred short of a thousand.
+FP04,FP,kb7-fragment48 13406,4,to,0,1,"Yeah, must be used to the must do it sometime"
+FP05,FP,kbh-fragment04 433,13,got,0,1,two months and she phoned up and I kind of made out it got lost in the post.
+FP06,FP,a5e-fragment06 182,28,down,0,1,"Buddy invites us to regard Holly in the same light, mocking( in a horribly nudging re-creation) Lubbock old-timers like The Hayriders, who sing: â When the sun goes down on Blue Ridge Mountain It's the time to whistle in your ear."
+FP07,FP,a7t-fragment01 21,7,headed,0,1,"The Treasury Secretary Nicholas Brady, a level headed figure, warned that the imbroglio may lead to higher interest costs for the taxpayer."
+FP08,FP,cty-fragment03 556,13,place,0,1,"It is simple enough for him to show that a boxing match takes place within a general totality of â boxing, which is itself only ever present in any individual incarnation, for as a game each match is both an individual bout and something conducted according to general rules and a specific social tradition."
+FP09,FP,a7w-fragment01 49,11,negotiate,0,1,A much more flexible system which would allow local managers to negotiate local rates â on a national pay spine â is needed.
+FP10,FP,ecv-fragment05 1145,29,getting,0,1,"Lockean children have the added amazing ability to recognise reason in you without possessing any themselves, while Kantian kids, two stages back from rationality, have the disconcerting habit of getting puzzled and asking questions."
+FP11,FP,b17-fragment02 226,40,with,0,1,"Studies in this area have indicated that too strict or too lax parental attitudes increase the risk of delinquency( the work of John Bowlby, for example); they have found that if a young child is deprived of close personal relationships with parents or parent figures then â problem behaviour is more common."
+FP12,FP,a31-fragment03 121,9,in,0,1,"Take up references before giving credit, lending money, letting in tenants, taking on staff."
+FP13,FP,a31-fragment03 119,8,owed,0,1,"As long as you can show that they owed you a legal duty to be careful and have been negligent, damages could come your way."
+FP14,FP,a7w-fragment01 75,9,up,0,1,Our latest Foreign Secretary has yet to publicly pick up the file marked Hong Kong.
+FP15,FP,kbh-fragment04 390,7,after,0,1,"And also, it's cos that, you know after we had that row about Terry, after Bank Holiday expecting not to have to do a day in the shop, and er he's already owing Brian a day?"
+FN01,FN,a1u-fragment04 111,12,to,1,0,"PCBs are so difficult to destroy, that Rechem's emission-monitoring systems are geared to detecting them on the grounds that if you destroy PCBs you destroy everything."
+FN02,FN,bmw-fragment09 2716,27,"over', '.",1,0,By the time I've paid for my room at the YWCA and bought all the make-up and clothes I need there never seems to be anything left over.
+FN03,FN,faj-fragment17 1947,3,taken,1,0,â Was it taken down by a policeman?
+FN04,FN,a3m-fragment02 86,12,fleet,1,0,"The supertram is, in effect, a low-cost replacement for British Rail's ageing fleet of suburban diesel multiple-unit trains, those rasping diesels which change gear to the accompaniment of voluminous clouds of acrid black exhaust fumes and the blessing of train spotters."
+FN05,FN,ccw-fragment04 2076,19,squad,1,0,"And if he doesn't do that, then the man will send Rickie's plump young ass down to the gang-rape squad in the county jail."
+FN06,FN,ahe-fragment03 44,6,odd,1,0,"â It may seem a little odd for prison staff to be looking at their prisoners as customers, but they are the direct consumers of our service, explained Mr Stephen Twinn, prison director, who spent 23 years in the public sector at various grades of prison governor."
+FN07,FN,clw-fragment01 160,2,"pupils', ',",1,0,"First, the pupils, teachers and practitioners of science are overwhelmingly male in terms of numbers; second, school science is packaged and presented to appeal to boys, not girls; third, classroom behaviours and interaction operate to reconstruct science as a male activity, and finally it has been suggested that â scientific thinking embodies an intrinsically masculine world view."
+FN08,FN,clw-fragment01 25,1,"contrast', ',",1,0,"In contrast, only a minority of girls express an interest in science at any age but there is no obvious swing from science in the middle and late teens."
+FN09,FN,clw-fragment01 144,12,interests,1,0,This told us that any simplistic assumptions about featuring â female domestic interests in science would probably meet with failure.
+FN10,FN,ccw-fragment04 2011,0,â\x80\x98,1,0,"â She allowed a man to persuade her into taking the drug, so she can only blame herself for her predicament."
+FN11,FN,kb7-fragment45 12922,4,spread,1,0,If I want it spread around.
+FN12,FN,a1u-fragment04 88,2,stretching,1,0,"These pipes stretching thinly in a bridge across the service road injected a mix of chemicals into the walls of the furnace itself; did I know that fuel was only used in the start-up process, after which the chemicals themselves provided the fire?"
+FN13,FN,bmw-fragment09 2547,18,"bow', ',",1,0,"Her long hair, shining gold, was swept back and caught at the nape of her neck with a bow, make-up, expertly applied, accentuated the classically beautiful lines of her face, and she wore her well-cut suit with all the panache that was expected of her."
+FN14,FN,faj-fragment17 1749,2,long,1,0,"â How long will it take, anyway?"
+FN15,FN,a5e-fragment06 185,17,"turn-of-the-century', ':",1,0,"If you didn't know the tunes, you'd assume Holly's lyrics decorated some innocent backporch spooners from the turn-of-the-century: â Stars appear and the shadows are fallin' You can hear my honey callin'."
