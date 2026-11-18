@@ -16,7 +16,6 @@ Mô hình và thuật toán AdMul thuộc công trình của tác giả. Công v
 - Ghi nguồn paper và phiên bản mã nguồn.
 - Lưu nguyên cấu hình mặc định và cấu hình VUA All của tác giả trong `configs/`.
 - Kiểm tra số mẫu, phân bố nhãn và SHA-256 của các file dữ liệu cục bộ; kết quả trong `results/commit1/data_check.json`.
-- Mô tả thiết lập tại [docs/experimental_setup.md](docs/experimental_setup.md).
 
 Kiểm tra lại dữ liệu từ thư mục gốc repo bằng Python (chỉ dùng thư viện chuẩn):
 
@@ -34,7 +33,7 @@ Các tài liệu và kiểm tra dữ liệu được bổ sung khi đăng lại 
 - Nhóm bổ sung `kaggle/runner.py`, `checkpointing.py`, `smoke.py`, `test_resume.py` và `build_notebook.py` để chạy nhiều phiên Kaggle, kiểm tra môi trường và khôi phục trạng thái huấn luyện.
 - Notebook tự chứa mã nguồn: [AdMul_Kaggle_Checkpoints.ipynb](AdMul_Kaggle_Checkpoints.ipynb).
 - Cách chạy phiên đầu và resume: [kaggle/README.md](kaggle/README.md).
-- Các thay đổi, phạm vi kiểm tra và minh chứng: [docs/kaggle_resume.md](docs/kaggle_resume.md), [results/commit2/verification.json](results/commit2/verification.json).
+- Minh chứng kiểm tra: [results/commit2/verification.json](results/commit2/verification.json).
 
 Kết quả kiểm tra CPU ở mốc 2 dùng model nhỏ để kiểm tra cơ chế resume, không phải điểm thực nghiệm AdMul.
 
