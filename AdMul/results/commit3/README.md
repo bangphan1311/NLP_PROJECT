@@ -1,10 +1,7 @@
 # Kết quả huấn luyện AdMul trên VUA All
-
-Nguồn: Output của [notebook Kaggle `nguynminhkhimuet/result`](https://www.kaggle.com/code/nguynminhkhimuet/result), lấy ngày 18/11/2026 (Asia/Saigon). Đây là ngày lấy output để đăng GitHub, không phải ngày bắt đầu huấn luyện. Không lưu được số version Kaggle trong lần lấy này; SHA-256 các file gốc nằm trong `source.json`.
-
 ## Kết quả cuối
 
-Huấn luyện hoàn tất 8 epoch, seed 4. Chọn **epoch 8 bằng F1 validation cao nhất**, không chọn theo test.
+Huấn luyện hoàn tất 8 epoch, seed 4. Chọn **epoch 8 bằng F1 validation cao nhất**
 
 | Độ đo | Validation (%) | Test (%) |
 |---|---:|---:|
@@ -57,13 +54,4 @@ Tổng `seconds` của 8 epoch khoảng **36,62 giờ**, gồm train và các l�
 | `source.json` | Nguồn lấy output và hash các file gốc |
 | `verification.json` | Kết quả đối chiếu tính nhất quán giữa các file |
 
-## Kiểm tra trước khi đăng
 
-- Đủ 8 epoch liên tiếp và sự kiện lưu checkpoint tương ứng, metric khớp lịch sử.
-- Epoch được chọn, F1 dev và điểm test khớp giữa `result.json`, lịch sử và sự kiện cuối.
-- F1 khớp precision/recall; cấu hình khớp identity.
-- Hash 5 tập dữ liệu khớp kiểm tra ở commit 1; hash 11 file code thực thi khớp code ở commit 2 khi chuẩn hóa newline LF như notebook.
-
-Đây là kiểm tra tính nhất quán của các file đã xuất; chưa tải checkpoint để chạy suy luận và tính lại metric độc lập. Các log được giữ nguyên. Đối chiếu paper, số tham số, biểu đồ và phân tích lỗi sẽ bổ sung ở mốc sau.
-
-Checkpoint tốt nhất nằm trong Output Kaggle tại `AdMulPaper/run/epochs/epoch_08.pt`. Commit này không chứa checkpoint, cache features, model pretrained hoặc dữ liệu gốc.
