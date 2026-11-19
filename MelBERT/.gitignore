@@ -1,0 +1,8 @@
+saves/
+data_devsel/
+data_raw/
+*.pt
+*.bin
+__pycache__/
+.ipynb_checkpoints/
+*.log

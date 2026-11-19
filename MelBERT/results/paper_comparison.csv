@@ -1,0 +1,5 @@
+track,metric,paper,reproduced,delta_points
+all_pos,precision,80.1,81.0,0.9
+all_pos,recall,76.9,75.9,-1.0
+all_pos,f1,78.5,78.3,-0.2
+verb,f1,75.7,75.0,-0.7
