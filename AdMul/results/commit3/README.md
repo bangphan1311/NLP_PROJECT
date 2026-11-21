@@ -38,6 +38,20 @@ Tổng `seconds` của 8 epoch khoảng **36,62 giờ**, gồm train và các l�
 - Batch 64, 8 epoch, LR `3e-5`, warmup 2 epoch, max length 150.
 - Gradient checkpointing được bật; không mixed precision.
 
+## Số tham số
+
+Đếm từ metadata `epoch_08.pt` bằng script nhóm bổ sung `AdMul/scripts/count_parameters.py`,
+không chạy lại huấn luyện. Không tính optimizer, scheduler hoặc buffer `position_ids`.
+
+| Thành phần | Số tham số |
+|---|---:|
+| Backbone DeBERTa | 183.831.552 |
+| Pooler | 590.592 |
+| Classifier và discriminator | 7.690 |
+| **Tổng** | **184.429.834** |
+
+Số tham số được bổ sung sau khi tải Output; đây không phải trường đã được log trong phiên train.
+
 ## Các file trong mốc này
 
 | File | Nội dung |

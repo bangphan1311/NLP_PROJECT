@@ -43,6 +43,19 @@ Kết quả kiểm tra CPU ở mốc 2 dùng model nhỏ để kiểm tra cơ ch
 
 Log gốc, lịch sử từng epoch, cấu hình thực tế, nguồn output Kaggle và kiểm tra đối chiếu được lưu tại [results/commit3/](results/commit3/README.md). Model và dữ liệu lớn giữ ở Kaggle; không đưa vào GitHub.
 
+Mô hình có **184.429.834 tham số** (184,43 triệu), gồm backbone, pooler và các classifier/discriminator.
+Nhóm bổ sung [scripts/count_parameters.py](scripts/count_parameters.py) để đếm từ metadata checkpoint,
+chỉ dùng thư viện chuẩn Python, không cần PyTorch hay chạy lại huấn luyện.
+Chạy từ thư mục gốc repo với checkpoint đã tải từ Kaggle:
+
+```bash
+python AdMul/scripts/count_parameters.py "/path/to/AdMulPaper/run/epochs/epoch_08.pt"
+```
+
+Nếu không truyền đường dẫn, script tìm checkpoint tại `AdMul/kaggle_output/result/AdMulPaper/run/epochs/epoch_08.pt`.
+Script dành cho định dạng checkpoint AdMul/DeBERTa của thí nghiệm này; không tính tensor buffer `position_ids`
+và không suy ra `requires_grad` từ `state_dict`.
+
 ## Các mốc tiếp theo
 
 4. Đối chiếu kết quả với paper.
