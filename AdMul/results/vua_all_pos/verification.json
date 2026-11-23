@@ -1,0 +1,25 @@
+{
+  "source_notebook": "https://www.kaggle.com/code/lminhhinlminhhin/vua-all-pos",
+  "report_date": "2026-11-23",
+  "checkpoint_epoch": 8,
+  "selection": "highest dev F1",
+  "paper": "https://aclanthology.org/2023.findings-acl.96.pdf",
+  "paper_tables": [
+    4,
+    5
+  ],
+  "metric_scale": "percent",
+  "delta_scale": "percentage points",
+  "positive_label": 1,
+  "overall_metrics_match_selected_epoch_at_csv_precision": true,
+  "pos_sample_counts_match_local_test": true,
+  "limitation": "CSV metrics rounded to two decimals; no per-example predictions exported by this POS notebook.",
+  "files_sha256": {
+    "evaluate_vua_all_used.py": "8698434197479d2b6558f4fd67e76ba381872ff2f2678dfb403269217002232c",
+    "metrics_by_pos.csv": "77a71f496306b5d6f43c6b31383e0e7bf4c5a75bae0c83f54e692d15ce1c549f",
+    "metrics_by_pos.csv.log": "08e771489f75627e3befc7b701e467c23987ccc931bbc360d99a7c36b084db99",
+    "paper_comparison.csv": "cc2ac8783d43e7843f5031c0597e15313a4d3232e0c915de990297f3b4081708",
+    "vua-all-pos.log": "c1d0777a69737ee1463cc55e6ba092c8de43bfe476f3bf15011faf7f732ec47d"
+  },
+  "test_sha256": "9e8bcb0d687ead4fe38138b849337980161365cedd82faa35006767644d58bfd"
+}

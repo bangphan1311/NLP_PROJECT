@@ -11,6 +11,16 @@ Phần thực nghiệm cho bài toán nhận diện ẩn dụ trong NLP_PROJECT.
 
 Mô hình và thuật toán AdMul thuộc công trình của tác giả. Công việc của nhóm là chuẩn bị thực nghiệm, tái lập trên Kaggle, ghi nhận kết quả và phân tích so sánh. Các phần bổ sung sẽ được ghi rõ ở từng mốc.
 
+## Báo cáo so sánh VUA All và POS
+
+- [Báo cáo PDF so sánh với paper](report/AdMul_VUA_All_POS_comparison.pdf).
+- [Kết quả POS thực tế](results/vua_all_pos/metrics_by_pos.csv), [bảng chênh lệch với paper](results/vua_all_pos/paper_comparison.csv).
+- [Log và kiểm tra nguồn số liệu](results/vua_all_pos/verification.json).
+
+Checkpoint epoch 8 đạt F1 ALL **78,23%**; VERB **76,28%**, ADJ **68,22%**,
+ADV **73,00%**, NOUN **72,10%**. Báo cáo ghi thời gian, số tham số, phần cứng
+và phân biệt số tham khảo trong paper với kết quả nhóm chạy thực tế.
+
 ## Mốc 1: chuẩn bị tái lập
 
 - Ghi nguồn paper và phiên bản mã nguồn.

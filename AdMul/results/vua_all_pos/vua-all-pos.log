@@ -1,0 +1,259 @@
+[{"stream_name":"stderr","time":8.566128794,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.566181457,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.566188119,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.566192229,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.168830843,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.168865541,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.168873943,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.168876574,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.654627515,"data":"Input train: /kaggle/input/notebooks/nguynminhkhimuet/result/AdMulPaper\n"}
+,{"stream_name":"stdout","time":11.654655784,"data":"Checkpoint: epochs/epoch_08.pt\n"}
+,{"stream_name":"stdout","time":11.654661029,"data":"Output đánh giá: /kaggle/working/metrics_by_pos.csv\n"}
+,{"stream_name":"stdout","time":13.305911187,"data":"Collecting uv==0.6.17\n"}
+,{"stream_name":"stdout","time":13.393421305,"data":"  Downloading uv-0.6.17-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)\n"}
+,{"stream_name":"stdout","time":13.424319149,"data":"Downloading uv-0.6.17-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.2 MB)\n"}
+,{"stream_name":"stdout","time":13.508273467,"data":"Collecting uv==0.6.17\n"}
+,{"stream_name":"stdout","time":13.508325164,"data":"  Downloading uv-0.6.17-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)\n"}
+,{"stream_name":"stdout","time":13.508337027,"data":"Downloading uv-0.6.17-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.2 MB)\n"}
+,{"stream_name":"stdout","time":13.772061727,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 54.8 MB/s  0:00:00\n"}
+,{"stream_name":"stdout","time":13.971419792,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 54.8 MB/s  0:00:00\n"}
+,{"stream_name":"stdout","time":15.606168491,"data":"Installing collected packages: uv\n"}
+,{"stream_name":"stdout","time":15.808499383000001,"data":"Installing collected packages: uv\n"}
+,{"stream_name":"stdout","time":15.95541467,"data":"Successfully installed uv-0.6.17\n"}
+,{"stream_name":"stdout","time":16.157741919,"data":"Successfully installed uv-0.6.17\n"}
+,{"stream_name":"stderr","time":16.203500746,"data":"warning: The `--system` flag has no effect, a system Python interpreter is always used in `uv venv`\n"}
+,{"stream_name":"stderr","time":16.405728499,"data":"warning: The `--system` flag has no effect, a system Python interpreter is always used in `uv venv`\n"}
+,{"stream_name":"stderr","time":16.405768472,"data":"\n"}
+,{"stream_name":"stderr","time":16.405773433,"data":"warning: The `--system` flag has no effect, a system Python interpreter is always used in `uv venv`\n"}
+,{"stream_name":"stderr","time":16.711638997,"data":"Downloading cpython-3.10.14-linux-x86_64-gnu (19.6MiB)\n"}
+,{"stream_name":"stderr","time":16.914618786,"data":"Downloading cpython-3.10.14-linux-x86_64-gnu (19.6MiB)\n"}
+,{"stream_name":"stderr","time":16.914654695,"data":"\n"}
+,{"stream_name":"stderr","time":16.914669866,"data":"Downloading cpython-3.10.14-linux-x86_64-gnu (19.6MiB)\n"}
+,{"stream_name":"stderr","time":17.660068619,"data":" Downloaded cpython-3.10.14-linux-x86_64-gnu\n"}
+,{"stream_name":"stderr","time":17.862258467,"data":" Downloaded cpython-3.10.14-linux-x86_64-gnu\n"}
+,{"stream_name":"stderr","time":17.862293054,"data":"\n"}
+,{"stream_name":"stderr","time":17.86229847,"data":" Downloaded cpython-3.10.14-linux-x86_64-gnu\n"}
+,{"stream_name":"stderr","time":17.943674439,"data":"Using CPython 3.10.14\n"}
+,{"stream_name":"stderr","time":17.943704213,"data":"Creating virtual environment with seed packages at: /tmp/admul-paper-env\n"}
+,{"stream_name":"stderr","time":18.146714496,"data":"Using CPython 3.10.14\n"}
+,{"stream_name":"stderr","time":18.146769498,"data":"Creating virtual environment with seed packages at: /tmp/admul-paper-env\n"}
+,{"stream_name":"stderr","time":18.146775356,"data":"\n"}
+,{"stream_name":"stderr","time":18.146779752,"data":"Using CPython 3.10.14\n"}
+,{"stream_name":"stderr","time":18.146784062,"data":"Creating virtual environment with seed packages at: /tmp/admul-paper-env\n"}
+,{"stream_name":"stderr","time":18.167829946,"data":" + packaging==26.3\n"}
+,{"stream_name":"stderr","time":18.168153788,"data":" + pip==26.3\n"}
+,{"stream_name":"stderr","time":18.168169831,"data":" + setuptools==84.2.1\n"}
+,{"stream_name":"stderr","time":18.168174853,"data":" + wheel==0.48.0\n"}
+,{"stream_name":"stderr","time":18.16817912,"data":"Activate with: source /tmp/admul-paper-env/bin/activate\n"}
+,{"stream_name":"stderr","time":18.370450401,"data":" + packaging==26.3\n"}
+,{"stream_name":"stderr","time":18.370486206,"data":" + pip==26.3\n"}
+,{"stream_name":"stderr","time":18.370491534,"data":" + setuptools==84.2.1\n"}
+,{"stream_name":"stderr","time":18.370495534,"data":" + wheel==0.48.0\n"}
+,{"stream_name":"stderr","time":18.370499057,"data":"Activate with: source /tmp/admul-paper-env/bin/activate\n"}
+,{"stream_name":"stderr","time":18.370502664,"data":"\n"}
+,{"stream_name":"stderr","time":18.370505705,"data":" + packaging==26.3\n"}
+,{"stream_name":"stderr","time":18.370508817,"data":" + pip==26.3\n"}
+,{"stream_name":"stderr","time":18.370513034,"data":" + setuptools==84.2.1\n"}
+,{"stream_name":"stderr","time":18.370517062,"data":" + wheel==0.48.0\n"}
+,{"stream_name":"stderr","time":18.370520261,"data":"Activate with: source /tmp/admul-paper-env/bin/activate\n"}
+,{"stream_name":"stderr","time":18.52644433,"data":"Using Python 3.10.14 environment at: /tmp/admul-paper-env\n"}
+,{"stream_name":"stderr","time":18.729132443,"data":"Using Python 3.10.14 environment at: /tmp/admul-paper-env\n"}
+,{"stream_name":"stderr","time":18.729181777,"data":"\n"}
+,{"stream_name":"stderr","time":18.729190244,"data":"Using Python 3.10.14 environment at: /tmp/admul-paper-env\n"}
+,{"stream_name":"stderr","time":19.283064226,"data":"Resolved 26 packages in 754ms\n"}
+,{"stream_name":"stderr","time":19.300037787,"data":"Downloading tokenizers (6.3MiB)\n"}
+,{"stream_name":"stderr","time":19.300432068,"data":"Downloading scikit-learn (9.2MiB)\n"}
+,{"stream_name":"stderr","time":19.300762171,"data":"Downloading protobuf (1.0MiB)\n"}
+,{"stream_name":"stderr","time":19.301536473,"data":"Downloading scipy (32.8MiB)\n"}
+,{"stream_name":"stderr","time":19.301681314,"data":"Downloading numpy (15.2MiB)\n"}
+,{"stream_name":"stderr","time":19.301892774,"data":"Downloading transformers (3.8MiB)\n"}
+,{"stream_name":"stderr","time":19.302074344,"data":"Downloading sentencepiece (1.2MiB)\n"}
+,{"stream_name":"stderr","time":19.337562505,"data":"Downloading torch (1.8GiB)\n"}
+,{"stream_name":"stderr","time":19.485431951,"data":"Resolved 26 packages in 754ms\n"}
+,{"stream_name":"stderr","time":19.485476254,"data":"Downloading tokenizers (6.3MiB)\n"}
+,{"stream_name":"stderr","time":19.485481602,"data":"Downloading scikit-learn (9.2MiB)\n"}
+,{"stream_name":"stderr","time":19.485485555,"data":"Downloading protobuf (1.0MiB)\n"}
+,{"stream_name":"stderr","time":19.485489357,"data":"Downloading scipy (32.8MiB)\n"}
+,{"stream_name":"stderr","time":19.485493077,"data":"Downloading numpy (15.2MiB)\n"}
+,{"stream_name":"stderr","time":19.485496846,"data":"Downloading transformers (3.8MiB)\n"}
+,{"stream_name":"stderr","time":19.485500631,"data":"Downloading sentencepiece (1.2MiB)\n"}
+,{"stream_name":"stderr","time":19.485504709,"data":"Downloading torch (1.8GiB)\n"}
+,{"stream_name":"stderr","time":19.485508375,"data":"\n"}
+,{"stream_name":"stderr","time":19.485511945,"data":"Resolved 26 packages in 754ms\n"}
+,{"stream_name":"stderr","time":19.48551578,"data":"Downloading tokenizers (6.3MiB)\n"}
+,{"stream_name":"stderr","time":19.485519733,"data":"Downloading scikit-learn (9.2MiB)\n"}
+,{"stream_name":"stderr","time":19.485523357,"data":"Downloading protobuf (1.0MiB)\n"}
+,{"stream_name":"stderr","time":19.485527084,"data":"Downloading scipy (32.8MiB)\n"}
+,{"stream_name":"stderr","time":19.485530766,"data":"Downloading numpy (15.2MiB)\n"}
+,{"stream_name":"stderr","time":19.485534512,"data":"Downloading transformers (3.8MiB)\n"}
+,{"stream_name":"stderr","time":19.485538193,"data":"Downloading sentencepiece (1.2MiB)\n"}
+,{"stream_name":"stderr","time":19.485541866,"data":"Downloading torch (1.8GiB)\n"}
+,{"stream_name":"stderr","time":19.558125502,"data":" Downloaded protobuf\n"}
+,{"stream_name":"stderr","time":19.565672211,"data":" Downloaded sentencepiece\n"}
+,{"stream_name":"stderr","time":19.760475476,"data":" Downloaded protobuf\n"}
+,{"stream_name":"stderr","time":19.76051943,"data":" Downloaded sentencepiece\n"}
+,{"stream_name":"stderr","time":19.760524798,"data":"\n"}
+,{"stream_name":"stderr","time":19.760528949,"data":" Downloaded protobuf\n"}
+,{"stream_name":"stderr","time":19.7605333,"data":" Downloaded sentencepiece\n"}
+,{"stream_name":"stderr","time":20.016030803,"data":" Downloaded tokenizers\n"}
+,{"stream_name":"stderr","time":20.218595381,"data":" Downloaded tokenizers\n"}
+,{"stream_name":"stderr","time":20.218626325,"data":"\n"}
+,{"stream_name":"stderr","time":20.218631331,"data":" Downloaded tokenizers\n"}
+,{"stream_name":"stderr","time":20.470607526,"data":" Downloaded scikit-learn\n"}
+,{"stream_name":"stderr","time":20.477075131,"data":" Downloaded transformers\n"}
+,{"stream_name":"stderr","time":20.673392298,"data":" Downloaded scikit-learn\n"}
+,{"stream_name":"stderr","time":20.67342411,"data":" Downloaded transformers\n"}
+,{"stream_name":"stderr","time":20.673428537,"data":"\n"}
+,{"stream_name":"stderr","time":20.673432157,"data":" Downloaded scikit-learn\n"}
+,{"stream_name":"stderr","time":20.673435611,"data":" Downloaded transformers\n"}
+,{"stream_name":"stderr","time":20.67546416,"data":" Downloaded numpy\n"}
+,{"stream_name":"stderr","time":20.837290997,"data":" Downloaded scipy\n"}
+,{"stream_name":"stderr","time":20.877932727,"data":" Downloaded numpy\n"}
+,{"stream_name":"stderr","time":20.877987801,"data":" Downloaded scipy\n"}
+,{"stream_name":"stderr","time":20.877996019,"data":"\n"}
+,{"stream_name":"stderr","time":20.877999859,"data":" Downloaded numpy\n"}
+,{"stream_name":"stderr","time":20.878013072999998,"data":" Downloaded scipy\n"}
+,{"stream_name":"stderr","time":50.34980792,"data":" Downloaded torch\n"}
+,{"stream_name":"stderr","time":50.349847084,"data":"Prepared 26 packages in 31.06s\n"}
+,{"stream_name":"stderr","time":50.351323147,"data":"Uninstalled 1 package in 0.94ms\n"}
+,{"stream_name":"stderr","time":50.553923746,"data":" Downloaded torch\n"}
+,{"stream_name":"stderr","time":50.553970516,"data":"Prepared 26 packages in 31.06s\n"}
+,{"stream_name":"stderr","time":50.553978696,"data":"Uninstalled 1 package in 0.94ms\n"}
+,{"stream_name":"stderr","time":50.553985579,"data":"\n"}
+,{"stream_name":"stderr","time":50.553991499,"data":" Downloaded torch\n"}
+,{"stream_name":"stderr","time":50.553996753,"data":"Prepared 26 packages in 31.06s\n"}
+,{"stream_name":"stderr","time":50.554001622,"data":"Uninstalled 1 package in 0.94ms\n"}
+,{"stream_name":"stderr","time":50.584029517,"data":"Installed 26 packages in 232ms\n"}
+,{"stream_name":"stderr","time":50.584351494,"data":" + certifi==2024.2.2\n"}
+,{"stream_name":"stderr","time":50.584377809,"data":" + charset-normalizer==3.3.2\n"}
+,{"stream_name":"stderr","time":50.584384528,"data":" + click==8.1.7\n"}
+,{"stream_name":"stderr","time":50.584389353,"data":" + filelock==3.13.1\n"}
+,{"stream_name":"stderr","time":50.584394333,"data":" + huggingface-hub==0.10.1\n"}
+,{"stream_name":"stderr","time":50.584398502,"data":" + idna==3.6\n"}
+,{"stream_name":"stderr","time":50.584417053,"data":" + joblib==1.3.2\n"}
+,{"stream_name":"stderr","time":50.584542388,"data":" + numpy==1.21.3\n"}
+,{"stream_name":"stderr","time":50.584552163,"data":" - packaging==26.3\n"}
+,{"stream_name":"stderr","time":50.584655952,"data":" + packaging==23.2\n"}
+,{"stream_name":"stderr","time":50.584666490000004,"data":" + protobuf==3.20.3\n"}
+,{"stream_name":"stderr","time":50.584741562,"data":" + pyyaml==6.0.1\n"}
+,{"stream_name":"stderr","time":50.584849957,"data":" + regex==2023.12.25\n"}
+,{"stream_name":"stderr","time":50.584859294,"data":" + requests==2.31.0\n"}
+,{"stream_name":"stderr","time":50.584921584,"data":" + sacremoses==0.1.1\n"}
+,{"stream_name":"stderr","time":50.585002368,"data":" + scikit-learn==1.2.2\n"}
+,{"stream_name":"stderr","time":50.585214153,"data":" + scipy==1.10.1\n"}
+,{"stream_name":"stderr","time":50.585228127,"data":" + sentencepiece==0.1.99\n"}
+,{"stream_name":"stderr","time":50.585356286,"data":" + six==1.16.0\n"}
+,{"stream_name":"stderr","time":50.585364958,"data":" + threadpoolctl==3.2.0\n"}
+,{"stream_name":"stderr","time":50.585371027,"data":" + tokenizers==0.12.1\n"}
+,{"stream_name":"stderr","time":50.58554877,"data":" + torch==1.13.1+cu116\n"}
+,{"stream_name":"stderr","time":50.585558938,"data":" + tqdm==4.66.5\n"}
+,{"stream_name":"stderr","time":50.585672785,"data":" + transformers==4.18.0\n"}
+,{"stream_name":"stderr","time":50.585742777,"data":" + typing-extensions==4.9.0\n"}
+,{"stream_name":"stderr","time":50.585804933,"data":" + urllib3==2.2.1\n"}
+,{"stream_name":"stderr","time":50.585813261,"data":" + yacs==0.1.8\n"}
+,{"stream_name":"stderr","time":50.786444941,"data":"Installed 26 packages in 232ms\n"}
+,{"stream_name":"stderr","time":50.786470755,"data":" + certifi==2024.2.2\n"}
+,{"stream_name":"stderr","time":50.786476565,"data":" + charset-normalizer==3.3.2\n"}
+,{"stream_name":"stderr","time":50.786481429,"data":" + click==8.1.7\n"}
+,{"stream_name":"stderr","time":50.786486166,"data":" + filelock==3.13.1\n"}
+,{"stream_name":"stderr","time":50.786491213,"data":" + huggingface-hub==0.10.1\n"}
+,{"stream_name":"stderr","time":50.786505711,"data":" + idna==3.6\n"}
+,{"stream_name":"stderr","time":50.786509802,"data":" + joblib==1.3.2\n"}
+,{"stream_name":"stderr","time":50.786513141,"data":" + numpy==1.21.3\n"}
+,{"stream_name":"stderr","time":50.7865165,"data":" - packaging==26.3\n"}
+,{"stream_name":"stderr","time":50.786519922,"data":" + packaging==23.2\n"}
+,{"stream_name":"stderr","time":50.786523335,"data":" + protobuf==3.20.3\n"}
+,{"stream_name":"stderr","time":50.786526882,"data":" + pyyaml==6.0.1\n"}
+,{"stream_name":"stderr","time":50.786530239,"data":" + regex==2023.12.25\n"}
+,{"stream_name":"stderr","time":50.786533659,"data":" + requests==2.31.0\n"}
+,{"stream_name":"stderr","time":50.786537438,"data":" + sacremoses==0.1.1\n"}
+,{"stream_name":"stderr","time":50.786541131,"data":" + scikit-learn==1.2.2\n"}
+,{"stream_name":"stderr","time":50.786544279,"data":" + scipy==1.10.1\n"}
+,{"stream_name":"stderr","time":50.786547834,"data":" + sentencepiece==0.1.99\n"}
+,{"stream_name":"stderr","time":50.786551747,"data":" + six==1.16.0\n"}
+,{"stream_name":"stderr","time":50.786555172999996,"data":" + threadpoolctl==3.2.0\n"}
+,{"stream_name":"stderr","time":50.786558573,"data":" + tokenizers==0.12.1\n"}
+,{"stream_name":"stderr","time":50.786562081,"data":" + torch==1.13.1+cu116\n"}
+,{"stream_name":"stderr","time":50.786565499,"data":" + tqdm==4.66.5\n"}
+,{"stream_name":"stderr","time":50.786569632,"data":" + transformers==4.18.0\n"}
+,{"stream_name":"stderr","time":50.786573233,"data":" + typing-extensions==4.9.0\n"}
+,{"stream_name":"stderr","time":50.786577435,"data":" + urllib3==2.2.1\n"}
+,{"stream_name":"stderr","time":50.786581731,"data":" + yacs==0.1.8\n"}
+,{"stream_name":"stderr","time":50.786585441,"data":"\n"}
+,{"stream_name":"stderr","time":50.786594188,"data":"Installed 26 packages in 232ms\n"}
+,{"stream_name":"stderr","time":50.786598164,"data":" + certifi==2024.2.2\n"}
+,{"stream_name":"stderr","time":50.786601986,"data":" + charset-normalizer==3.3.2\n"}
+,{"stream_name":"stderr","time":50.786605797,"data":" + click==8.1.7\n"}
+,{"stream_name":"stderr","time":50.786609596,"data":" + filelock==3.13.1\n"}
+,{"stream_name":"stderr","time":50.786613321,"data":" + huggingface-hub==0.10.1\n"}
+,{"stream_name":"stderr","time":50.786617071,"data":" + idna==3.6\n"}
+,{"stream_name":"stderr","time":50.786620823,"data":" + joblib==1.3.2\n"}
+,{"stream_name":"stderr","time":50.786624128,"data":" + numpy==1.21.3\n"}
+,{"stream_name":"stderr","time":50.786627502,"data":" - packaging==26.3\n"}
+,{"stream_name":"stderr","time":50.786630821,"data":" + packaging==23.2\n"}
+,{"stream_name":"stderr","time":50.786634162,"data":" + protobuf==3.20.3\n"}
+,{"stream_name":"stderr","time":50.78663755,"data":" + pyyaml==6.0.1\n"}
+,{"stream_name":"stderr","time":50.78664118,"data":" + regex==2023.12.25\n"}
+,{"stream_name":"stderr","time":50.786644836,"data":" + requests==2.31.0\n"}
+,{"stream_name":"stderr","time":50.786648631,"data":" + sacremoses==0.1.1\n"}
+,{"stream_name":"stderr","time":50.786652327,"data":" + scikit-learn==1.2.2\n"}
+,{"stream_name":"stderr","time":50.786655777,"data":" + scipy==1.10.1\n"}
+,{"stream_name":"stderr","time":50.786659091,"data":" + sentencepiece==0.1.99\n"}
+,{"stream_name":"stderr","time":50.786662446,"data":" + six==1.16.0\n"}
+,{"stream_name":"stderr","time":50.786665752,"data":" + threadpoolctl==3.2.0\n"}
+,{"stream_name":"stderr","time":50.786669217,"data":" + tokenizers==0.12.1\n"}
+,{"stream_name":"stderr","time":50.786677189,"data":" + torch==1.13.1+cu116\n"}
+,{"stream_name":"stderr","time":50.786681216,"data":" + tqdm==4.66.5\n"}
+,{"stream_name":"stderr","time":50.786684974,"data":" + transformers==4.18.0\n"}
+,{"stream_name":"stderr","time":50.786688712,"data":" + typing-extensions==4.9.0\n"}
+,{"stream_name":"stderr","time":50.786692127,"data":" + urllib3==2.2.1\n"}
+,{"stream_name":"stderr","time":50.786695502,"data":" + yacs==0.1.8\n"}
+,{"stream_name":"stdout","time":54.332877428,"data":"1.13.1+cu116 4.18.0 1.21.3\n"}
+,{"stream_name":"stdout","time":54.33290914,"data":"six ready: 1.16.0\n"}
+,{"stream_name":"stdout","time":54.332913568,"data":"Tesla T4\n"}
+,{"stream_name":"stdout","time":54.535558754,"data":"1.13.1+cu116 4.18.0 1.21.3\n"}
+,{"stream_name":"stdout","time":54.535625656,"data":"six ready: 1.16.0\n"}
+,{"stream_name":"stdout","time":54.535632443,"data":"Tesla T4\n"}
+,{"stream_name":"stdout","time":92.980211709,"data":"Some weights of the model checkpoint at /kaggle/input/notebooks/nguynminhkhimuet/result/AdMulPaper/deberta-v3-base were not used when initializing DebertaV2Model: ['mask_predictions.dense.bias', 'mask_predictions.classifier.bias', 'lm_predictions.lm_head.LayerNorm.bias', 'mask_predictions.classifier.weight', 'mask_predictions.dense.weight', 'lm_predictions.lm_head.dense.bias', 'lm_predictions.lm_head.LayerNorm.weight', 'lm_predictions.lm_head.bias', 'mask_predictions.LayerNorm.bias', 'mask_predictions.LayerNorm.weight', 'lm_predictions.lm_head.dense.weight']\n"}
+,{"stream_name":"stdout","time":92.981345545,"data":"- This IS expected if you are initializing DebertaV2Model from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).\n"}
+,{"stream_name":"stdout","time":92.982284869,"data":"- This IS NOT expected if you are initializing DebertaV2Model from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).\n"}
+,{"stream_name":"stdout","time":127.046206303,"data":"3200/50175 targets\n"}
+,{"stream_name":"stdout","time":159.774377077,"data":"6400/50175 targets\n"}
+,{"stream_name":"stdout","time":194.620989075,"data":"9600/50175 targets\n"}
+,{"stream_name":"stdout","time":231.946269009,"data":"12800/50175 targets\n"}
+,{"stream_name":"stdout","time":267.269721112,"data":"16000/50175 targets\n"}
+,{"stream_name":"stdout","time":303.712360172,"data":"19200/50175 targets\n"}
+,{"stream_name":"stdout","time":339.619678832,"data":"22400/50175 targets\n"}
+,{"stream_name":"stdout","time":376.153271581,"data":"25600/50175 targets\n"}
+,{"stream_name":"stdout","time":412.512072823,"data":"28800/50175 targets\n"}
+,{"stream_name":"stdout","time":448.635103462,"data":"32000/50175 targets\n"}
+,{"stream_name":"stdout","time":485.070735368,"data":"35200/50175 targets\n"}
+,{"stream_name":"stdout","time":521.911374775,"data":"38400/50175 targets\n"}
+,{"stream_name":"stdout","time":559.065783059,"data":"41600/50175 targets\n"}
+,{"stream_name":"stdout","time":595.573586596,"data":"44800/50175 targets\n"}
+,{"stream_name":"stdout","time":631.816651834,"data":"48000/50175 targets\n"}
+,{"stream_name":"stdout","time":656.542545711,"data":"Checkpoint: epoch 8; P/R/F1/Accuracy in %\n"}
+,{"stream_name":"stdout","time":656.543631411,"data":"POS       n     Precision  Recall   F1       Accuracy\n"}
+,{"stream_name":"stdout","time":656.544894844,"data":"ALL     50175    77.93    78.52    78.23    94.56\n"}
+,{"stream_name":"stdout","time":656.545628168,"data":"VERB     9872    75.62    76.95    76.28    90.85\n"}
+,{"stream_name":"stdout","time":656.54664997,"data":"ADJ      3965    71.69    65.06    68.22    91.73\n"}
+,{"stream_name":"stdout","time":656.547622016,"data":"ADV      3393    75.22    70.90    73.00    96.23\n"}
+,{"stream_name":"stdout","time":656.548871417,"data":"NOUN     8588    76.52    68.16    72.10    92.07\n"}
+,{"stream_name":"stdout","time":656.54988178,"data":"Saved: /kaggle/working/metrics_by_pos.csv\n"}
+,{"stream_name":"stdout","time":657.192877868,"data":"POS,n,precision,recall,f1,accuracy\n"}
+,{"stream_name":"stdout","time":657.192901685,"data":"ALL,50175,77.93,78.52,78.23,94.56\n"}
+,{"stream_name":"stdout","time":657.192905721,"data":"VERB,9872,75.62,76.95,76.28,90.85\n"}
+,{"stream_name":"stdout","time":657.192909109,"data":"ADJ,3965,71.69,65.06,68.22,91.73\n"}
+,{"stream_name":"stdout","time":657.192912501,"data":"ADV,3393,75.22,70.9,73.0,96.23\n"}
+,{"stream_name":"stdout","time":657.192928207,"data":"NOUN,8588,76.52,68.16,72.1,92.07\n"}
+,{"stream_name":"stdout","time":657.192932133,"data":"\n"}
+,{"stream_name":"stdout","time":657.192935263,"data":"Tải file: /kaggle/working/metrics_by_pos.csv\n"}
+,{"stream_name":"stderr","time":659.77761528,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":659.77764259,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":659.948753668,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":659.948794705,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":660.762879834,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":660.842166575,"data":"[NbConvertApp] Writing 23299 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":663.436424324,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":663.999026826,"data":"[NbConvertApp] Writing 321094 bytes to __results__.html\n"}
+]

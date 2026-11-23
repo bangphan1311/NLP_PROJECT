@@ -1,0 +1,26 @@
+Some weights of the model checkpoint at /kaggle/input/notebooks/nguynminhkhimuet/result/AdMulPaper/deberta-v3-base were not used when initializing DebertaV2Model: ['mask_predictions.dense.bias', 'mask_predictions.classifier.bias', 'lm_predictions.lm_head.LayerNorm.bias', 'mask_predictions.classifier.weight', 'mask_predictions.dense.weight', 'lm_predictions.lm_head.dense.bias', 'lm_predictions.lm_head.LayerNorm.weight', 'lm_predictions.lm_head.bias', 'mask_predictions.LayerNorm.bias', 'mask_predictions.LayerNorm.weight', 'lm_predictions.lm_head.dense.weight']
+- This IS expected if you are initializing DebertaV2Model from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DebertaV2Model from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+3200/50175 targets
+6400/50175 targets
+9600/50175 targets
+12800/50175 targets
+16000/50175 targets
+19200/50175 targets
+22400/50175 targets
+25600/50175 targets
+28800/50175 targets
+32000/50175 targets
+35200/50175 targets
+38400/50175 targets
+41600/50175 targets
+44800/50175 targets
+48000/50175 targets
+Checkpoint: epoch 8; P/R/F1/Accuracy in %
+POS       n     Precision  Recall   F1       Accuracy
+ALL     50175    77.93    78.52    78.23    94.56
+VERB     9872    75.62    76.95    76.28    90.85
+ADJ      3965    71.69    65.06    68.22    91.73
+ADV      3393    75.22    70.90    73.00    96.23
+NOUN     8588    76.52    68.16    72.10    92.07
+Saved: /kaggle/working/metrics_by_pos.csv
