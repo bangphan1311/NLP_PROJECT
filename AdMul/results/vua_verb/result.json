@@ -1,0 +1,16 @@
+{
+  "training_complete": true,
+  "completed_epochs": 5,
+  "next_epoch": null,
+  "best_epoch": 3,
+  "best_dev_f1": 0.7648351648351649,
+  "session_epochs": 5,
+  "best_checkpoint": "epochs/epoch_03.pt",
+  "note": "Best epoch selected by dev only; test passes retained to match author RNG order",
+  "best_epoch_test": {
+    "accuracy": 0.8581644815256257,
+    "precision": 0.7795180722891566,
+    "recall": 0.7348097671777399,
+    "f1": 0.7565039462145571
+  }
+}

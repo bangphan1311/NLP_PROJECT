@@ -1,0 +1,17 @@
+{
+  "kernel": "ngtk61000/moh-x",
+  "url": "https://www.kaggle.com/code/ngtk61000/moh-x",
+  "retrieved_on": "2026-11-25",
+  "timezone": "Asia/Saigon",
+  "note": "Retrieval date is not training date; kernel output version number was not recorded. Evidence copied byte-for-byte from downloaded output.",
+  "local_output": "moh-x/AdMul_MOHX",
+  "raw_file_sha256": {
+    "result.json": "351f363b02e5fe089ebf95dc19f52056bd4240cb40257a540b071b8792bfddc3",
+    "config.yaml": "83d72fd4a96888a7107a11c02c2994dba4c74eb7045685c1c6cc8d96d938cb42",
+    "identity.json": "3a12b87ad84c3efbb2a2e7c3ec0c90e0cb7510f4072bc2f006be1b2380960242"
+  },
+  "additional_verified_file_sha256": {
+    "predictions_oof_final.csv": "4b812180d1f2db0323d6cae6fc81bdeb6cdac9b5bcfd543a17473194727b7218"
+  },
+  "checkpoints_included": false
+}

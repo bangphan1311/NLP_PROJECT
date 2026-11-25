@@ -1,0 +1,16 @@
+{
+  "kernel": "dd7thjun/vua-verb",
+  "url": "https://www.kaggle.com/code/dd7thjun/vua-verb",
+  "retrieved_on": "2026-11-25",
+  "timezone": "Asia/Saigon",
+  "note": "Retrieval date is not training date; kernel output version number was not recorded. Evidence copied byte-for-byte from downloaded output.",
+  "local_output": "vua-verb/AdMul_VUA_Verb",
+  "raw_file_sha256": {
+    "result.json": "6f3da2a43a7c821932e2fc3c59c45bdc936076d7fa1a239057ebd686d46bdd52",
+    "history.json": "4632f3738dfae7a7c18338caf539a18221f26533eb1aa63bc8e436490c857496",
+    "config.yaml": "1524cd7774495cffbebf3e48a5340085fab011a776863edba33aebbaa181ae46",
+    "identity.json": "285e9744fd0576f1c238c42ec95281cea0a23d2bffb203cd04c5e5999a3aac39"
+  },
+  "additional_verified_file_sha256": {},
+  "checkpoints_included": false
+}
