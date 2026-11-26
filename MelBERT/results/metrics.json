@@ -1,30 +1,63 @@
 {
-  "melbert": {
-    "test_all_pos": {
-      "precision": 81.0,
-      "recall": 75.9,
-      "f1": 78.3,
-      "accuracy": 94.0
+  "protocol": "5 seeds [1, 2, 3, 4, 5], NAACL-HLT 2021",
+  "datasets": {
+    "VUA18": {
+      "n_runs": 5,
+      "precision_mean": 80.104618,
+      "precision_std": 1.252770,
+      "recall_mean": 77.328208,
+      "recall_std": 1.859206,
+      "f1_mean": 78.667329,
+      "f1_std": 0.368882,
+      "paper": {
+        "precision": 80.1,
+        "recall": 76.9,
+        "f1": 78.5
+      }
     },
-    "test_by_pos": {
-      "VERB": {"n": 9247, "P": 76.8, "R": 73.3, "F1": 75.0, "Acc": 90.0},
-      "NOUN": {"n": 8583, "P": 77.1, "R": 65.1, "F1": 70.6, "Acc": 91.8},
-      "ADJ": {"n": 3965, "P": 69.1, "R": 63.8, "F1": 66.3, "Acc": 91.2},
-      "ADV": {"n": 3054, "P": 78.9, "R": 68.9, "F1": 73.5, "Acc": 96.0}
-    }
-  },
-  "roberta_base": {
-    "test_all_pos": {
-      "precision": 78.6,
-      "recall": 76.1,
-      "f1": 77.4,
-      "accuracy": 93.7
+    "VUA20": {
+      "n_runs": 5,
+      "precision_mean": 75.686804,
+      "precision_std": 1.687474,
+      "recall_mean": 69.758915,
+      "recall_std": 1.390703,
+      "f1_mean": 72.576859,
+      "f1_std": 0.234692,
+      "paper": {
+        "precision": 76.4,
+        "recall": 68.6,
+        "f1": 72.3
+      }
     },
-    "test_by_pos": {
-      "VERB": {"n": 9247, "P": 73.3, "R": 75.8, "F1": 74.6, "Acc": 89.4},
-      "NOUN": {"n": 8583, "P": 76.1, "R": 64.0, "F1": 69.5, "Acc": 91.6},
-      "ADJ": {"n": 3965, "P": 68.0, "R": 61.2, "F1": 64.4, "Acc": 90.8},
-      "ADV": {"n": 3054, "P": 78.2, "R": 66.0, "F1": 71.6, "Acc": 95.8}
+    "MOH-X": {
+      "evaluation_type": "zero-shot from VUA-20 (10 splits)",
+      "n_runs": 5,
+      "precision_mean": 79.240094,
+      "precision_std": 0.782332,
+      "recall_mean": 79.538927,
+      "recall_std": 2.706241,
+      "f1_mean": 79.038379,
+      "f1_std": 1.183255,
+      "paper": {
+        "precision": 79.3,
+        "recall": 79.7,
+        "f1": 79.2
+      }
+    },
+    "TroFi": {
+      "evaluation_type": "zero-shot from VUA-20 (10 splits)",
+      "n_runs": 5,
+      "precision_mean": 53.275955,
+      "precision_std": 0.153084,
+      "recall_mean": 74.036021,
+      "recall_std": 1.578998,
+      "f1_mean": 61.873505,
+      "f1_std": 0.648851,
+      "paper": {
+        "precision": 53.4,
+        "recall": 74.1,
+        "f1": 62.0
+      }
     }
   }
 }
