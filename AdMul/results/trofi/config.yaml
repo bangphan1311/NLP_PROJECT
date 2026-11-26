@@ -1,0 +1,30 @@
+DATA:
+  data_dir: /kaggle/working/AdMul_TroFi/data/data
+  max_len: 150
+  plm: /kaggle/working/AdMul_TroFi/deberta-v3-base
+  wsd_threshold: 8
+MODEL:
+  dropout: 0.0
+  embed_dim: 768
+  num_classes: 2
+  num_tasks: 2
+TRAIN:
+  global_weight: 0.1
+  lambda_hi: 0.8
+  lambda_lo: 0.1
+  local_weight: 0.1
+  lr: 1.0e-05
+  md_class_weight: 1
+  output: /kaggle/working/AdMul_TroFi/run
+  train_batch_size: 64
+  train_epochs: 10
+  val_batch_size: 64
+  warmup_epochs: 2
+  weight_decay: 0.01
+  wsd_class_weight: 1
+  wsd_weight: 0.2
+eval_mode: false
+gpu: '0'
+log: log_test
+seed: 4
+task: trofi

@@ -1,4 +1,4 @@
-# Tái lập AdMul trên VUA All
+# Tái lập AdMul và đối chiếu với bài báo
 
 Phần thực nghiệm cho bài toán nhận diện ẩn dụ trong NLP_PROJECT.
 
@@ -162,6 +162,45 @@ Các báo cáo MelBERT/RoPPT của nhóm hiện ghi **43.947 target test**, còn
 Cần đối chiếu câu, vị trí từ, nhãn và cùng tập target trước khi xếp hạng kết quả thực nghiệm chung.
 Phần đối chiếu với paper ở trên chưa đáp ứng đầy đủ yêu cầu chạy mọi phương pháp của nhóm
 và baseline truyền thống trên cùng dữ liệu/split.
+
+## So sánh kết quả TroFi với paper
+
+Thực nghiệm từ [Output Kaggle lminhhinlminhhin/trofi](https://www.kaggle.com/code/lminhhinlminhhin/trofi)
+đã hoàn tất **10/10 fold, 10 epoch mỗi fold, seed 4**, trên **3.737 target** (1.627 nhãn ẩn dụ, 2.110 nhãn nghĩa đen).
+Sau một lần shuffle, runner chia 10 đoạn liên tiếp theo `main_kf.py`: chín fold có 373 target held-out,
+fold cuối có 380; không chia stratified. P/R/F1 tính cho lớp ẩn dụ (`label=1`).
+
+| Kết quả TroFi | Precision (%) | Recall (%) | F1 (%) | Accuracy (%) |
+|---|---:|---:|---:|---:|
+| AdMul — paper, Bảng 4 | 70,50 | 79,80 | 74,70 | 76,50 |
+| **Nhóm — epoch tốt nhất theo held-out, trung bình 10 fold** | **69,23** | **77,97** | **73,08** | **75,01** |
+| Nhóm − paper, điểm phần trăm | −1,27 | −1,83 | **−1,62** | −1,49 |
+| **Nhóm — epoch 10 cố định, trung bình 10 fold** | **70,84** | **68,86** | **69,58** | **73,83** |
+| Nhóm − paper, điểm phần trăm | +0,34 | −10,94 | **−5,12** | −2,67 |
+
+Nguồn số công bố: [Bảng 4, trang 1489 của paper](https://aclanthology.org/2023.findings-acl.96.pdf#page=7).
+Chênh lệch tính từ số đã làm tròn hai chữ số. F1 tái lập đạt **73,08%**, thấp hơn paper **1,62 điểm**.
+Precision và recall đều thấp hơn số công bố; với epoch cuối, recall giảm rõ hơn, còn precision gần mức paper.
+
+**Quy tắc chọn epoch cần được giữ rõ:** code tác giả chọn epoch có F1 cao nhất trên chính held-out fold,
+rồi lấy trung bình metric của 10 fold. Mức 73,08% dùng quy tắc này, không có tập dev độc lập để chọn checkpoint.
+Mức 69,58% dùng epoch 10 cố định, tránh chọn epoch bằng nhãn held-out. Chênh lệch giữa hai cách là **3,50 điểm F1**;
+chưa thể dùng chênh lệch này để kết luận nguyên nhân hay ý nghĩa thống kê của khoảng cách với paper.
+Đây là huấn luyện TroFi theo cross-validation, đối chiếu Bảng 4; không phải zero-shot ở Bảng 8.
+
+Tổng thời gian train **13,34 giờ**, train + đánh giá **13,93 giờ** trên **1 Tesla T4**;
+mỗi model có **184.429.834 tham số**, peak GPU memory allocated lớn nhất **5,64 GiB**.
+Cấu hình chính: DeBERTa-v3-base, batch 64, LR `1e-5`, max length 150, gradient checkpointing bật, FP32.
+Epoch/batch/LR khớp [Bảng 3 của paper](https://aclanthology.org/2023.findings-acl.96.pdf#page=6).
+Paper dùng RTX 3090; chưa có thí nghiệm đối chứng để quy khoảng cách điểm cho phần cứng.
+
+Đã kiểm tra đủ 3.737 row ID xuất hiện đúng một lần trong dự đoán ngoài fold, phân hoạch train/held-out không giao nhau,
+metric từng fold và trung bình khớp JSON, epoch tốt nhất khớp lịch sử, SHA-256 dữ liệu khớp metadata lần chạy.
+F1 gộp dự đoán epoch cuối là **69,59%**, khác trung bình F1 theo fold **69,58%** do cách tổng hợp.
+
+- [Báo cáo TroFi đầy đủ: từng fold, cấu hình, giới hạn](results/trofi/README.md).
+- [Kết quả gốc](results/trofi/result.json), [bảng so sánh CSV](results/trofi/paper_comparison.csv), [kiểm tra số liệu](results/trofi/verification.json).
+- [Nguồn Output và SHA-256](results/trofi/source.json), [dự đoán ngoài fold của epoch cuối](results/trofi/predictions_oof_final.csv).
 
 ## Các công việc còn lại
 

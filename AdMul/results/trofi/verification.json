@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": {
+    "ten_complete_folds": true,
+    "ten_epochs_each": true,
+    "partitions_disjoint_and_complete": true,
+    "unique_oof_rows": 3737,
+    "prediction_metrics_match_all_fold_results": true,
+    "pooled_metrics_match": true,
+    "best_epochs_match_heldout_history": true,
+    "fold_means_match": true,
+    "timing_sums_match": true,
+    "data_hashes_match_identity": true
+  },
+  "positive_targets": 1627,
+  "negative_targets": 2110,
+  "pooled_final": {
+    "n": 3737,
+    "TP": 1119,
+    "FP": 470,
+    "FN": 508,
+    "TN": 1640,
+    "precision": 0.7042164883574575,
+    "recall": 0.6877688998156115,
+    "f1": 0.6958955223880597,
+    "accuracy": 0.7382927481937382
+  }
+}

@@ -1,0 +1,6 @@
+# Preserve the original Kaggle evidence bytes for SHA-256 verification.
+* whitespace=cr-at-eol
+*.json -text
+*.csv -text
+*.yaml -text
+*.txt -text

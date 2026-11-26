@@ -1,0 +1,50 @@
+{
+  "task": "trofi",
+  "config": "DATA:\n  data_dir: /kaggle/working/AdMul_TroFi/data/data\n  max_len: 150\n  plm: /kaggle/working/AdMul_TroFi/deberta-v3-base\n  wsd_threshold: 8\nMODEL:\n  dropout: 0.0\n  embed_dim: 768\n  num_classes: 2\n  num_tasks: 2\nTRAIN:\n  global_weight: 0.1\n  lambda_hi: 0.8\n  lambda_lo: 0.1\n  local_weight: 0.1\n  lr: 1.0e-05\n  md_class_weight: 1\n  output: /kaggle/working/AdMul_TroFi/run\n  train_batch_size: 64\n  train_epochs: 10\n  val_batch_size: 64\n  warmup_epochs: 2\n  weight_decay: 0.01\n  wsd_class_weight: 1\n  wsd_weight: 0.2\neval_mode: false\ngpu: '0'\nlog: log_test\nseed: 4\ntask: trofi\n",
+  "runtime": {
+    "python": "3.10.14",
+    "torch": "1.13.1+cu116",
+    "transformers": "4.18.0",
+    "numpy": "1.21.3",
+    "tokenizers": "0.12.1",
+    "sklearn": "1.2.2",
+    "cuda": "11.6",
+    "cudnn": 8302,
+    "gpu": "Tesla T4",
+    "devices": 1,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "matmul_tf32": false,
+    "cudnn_tf32": false,
+    "deterministic_algorithms": true
+  },
+  "data": {
+    "TroFi/TroFi.tsv": "46b87932fc655ce8b99fd0a01de176919c7947836618fe55dff97db8cb21cc4b",
+    "semcor/threshold/train_8.tsv": "4f29add8b38f93468ae1c45b6ab070d9c00f9b61cd7d79e20f733b5d72ae9d94",
+    "semcor/threshold/test_8.tsv": "8692fae9604429e48c8b96554553d164e35ba08bd7fa8236d074376f3385fe22"
+  },
+  "source": {
+    "checkpointing.py": "aaadb5776b8031fd12c6183fc0778fb94fe1904f2a988528d4d32071d7721dfb",
+    "configs/default.py": "6234536aee99d84978b841f388c1339c97984d8968367a945977bd0736fead53",
+    "data_process.py": "050753e841a418c02e602f684424312892f4fa9345cb769e3af72fc9c5daa969",
+    "data_utils.py": "f4f0b48e5eb8870ca68ed4b10c6e704f39a5487aa531b4640f07d481088c5e62",
+    "main_kf.py": "2b7ad8562284379b6dd88812c65ed11e4611b8cb6b428513de4bdde74b63eb92",
+    "main_vua.py": "d9e9fda89e9c8756161ea7d215efa9caa6eb35b67aa8c7ad1505dee419b73868",
+    "model.py": "2788680ff6561b4a7d322d53c0b6c76b4448d6c6a09066ef6cd837aa8285f664",
+    "runner.py": "b882b1a1849ca6ee4d597aa711a7aba0982dc098a903ee197f165862b4bf3f27",
+    "smoke.py": "8e497bd7916ec01c38ea46a1d080ebccafa14d637dcaca43d2315a82ed5e9743",
+    "train_val.py": "e6fb03f634e87e8a133fc589084498f3f7b95f0a348c8eb068e1dcae3f1f94ad",
+    "utils.py": "9136a7d4d6cfa390b09c04a9daa5f409a819713686656d07eaa694b54767d0ac"
+  },
+  "backbone": {
+    "config.json": "649f6a1ec33c6bdd9a6486d5c66019d461139e54957073eafe9bbc2d34c75b0b",
+    "pytorch_model.bin": "691d48a2800b926a19e3051def466fc2cca4f59a15e42ce4a0cf7f1b380b5e33",
+    "source_revision.txt": "0f88eec6af294d0b9e7d992bf111704334c6a7b507e85dd809aed42c854174fd",
+    "spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd",
+    "tokenizer_config.json": "3f3978e0c036f2c2588cac34a6047cbb0af0b0dc1814254e291028529805496d"
+  },
+  "features_sha256": "f29df894341e69848972046637364c77c26e8c2d5d13bfe5466785235f0ad050",
+  "gradient_checkpointing": true,
+  "mixed_precision": false,
+  "scheduler": null
+}
